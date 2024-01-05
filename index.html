@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="cs, en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="MsiY-u5uh6w34M2YIimLkWn9PnE0WOuTv3KkWxBTioE"/>
+
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="en, cs">
+    <meta name="author" content="Tereza Svrčinová">
+    <meta name="theme-color" content="#ff0000">
+
+    <title> 𝒢𝒾𝓇𝓁𝒲𝒾𝓉𝒽𝒮𝑜𝓊𝓁 ♡ 𝑔𝒶𝓁𝑒𝓇𝒾𝑒 </title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+    <!--LANGUAGE SWITCH-->
+    <a id="switch" class="content en" onclick="switchLang()">cz</a>
+    <a id="switch" class="content cz" onclick="switchLang()">en</a>
+
+    <!--NAVBAR-->
+    <nav class="navbar mobile-hidden">
+        <ul class="flex flex-wrap items-center justify-between">
+            <li><a href="#home"><i class="fas fa-home"></i></a></li>
+            <li><a href="#gallery"><i class="fas fa-image"></i></a></li>
+            <li><a href="#post"><i class="fas fa-envelope"></i></a></li>
+            <!--
+            <li>
+                <p class="visitor-counter ml-auto en">Visited: <span class="website-counter">1</span></p>
+                <p class="visitor-counter ml-auto cz">Navštíveno: <span class="website-counter">1</span></p>
+            </li>
+            -->
+        </ul>
+    </nav>
+
+    <!--NAVBAR MOBILE-->
+    <nav class="navbar pc-hidden">
+        <ul class="flex flex-wrap items-center justify-between">
+            <li><a href="#home"><i class="fas fa-home"></i></a></li>
+            <li><a href="#gallery"><i class="fas fa-image"></i></a></li>
+            <li><a href="#post"><i class="fas fa-envelope"></i></a></li>
+        </ul>
+    </nav>
+
+    <!--POLAROID IMAGE-->
+    <div id="home"></div>
+    <div class="polaroid">
+        <img src="polaroid.jpg">
+        <p class="caption">Tereza Svrčinová</p>
+    </div>
+
+    <br><br>
+
+    <!--GALLERY-->
+    <div class="mt-6"></div>
+
+    <span id="gallery"></span>
+    <h2 class="title text-changing en"> 𝒢𝒶𝓁𝑒𝓇𝓇𝓎 </h2>
+    <h2 class="title text-changing cz"> 𝒢𝒶𝓁𝑒𝓇𝒾𝑒 </h2>
+    <div class="gallery">
+        <!-- <img class="image" src="" alt=""> -->
+
+        <img class="image" src="images/1.jpg" alt="">
+
+        <img class="image" src="images/2.jpg" alt="">
+        
+        <img class="image" src="images/3.jpg" alt="">
+        
+        <img class="image" src="images/4.jpg" alt="">
+        
+        <img class="image" src="images/5.jpg" alt="">
+        
+        <img class="image" src="images/6.jpg" alt="">
+        
+        <img class="image" src="images/7.jpg" alt="">
+        
+        <img class="image" src="images/8.jpg" alt="">
+        
+        <img class="image" src="images/9.jpg" alt="">
+        
+        <img class="image" src="images/10.jpg" alt="">
+        
+        <img class="image" src="images/11.jpg" alt="">
+        
+        <img class="image" src="images/12.jpg" alt="">
+        
+        <img class="image" src="images/13.jpg" alt="">
+        
+        <img class="image" src="images/14.jpg" alt="">
+        
+        <img class="image" src="images/15.jpg" alt="">
+        
+        <img class="image" src="images/16.jpg" alt="">
+        
+        <img class="image" src="images/17.jpg" alt="">
+        
+        <img class="image" src="images/18.jpg" alt="">
+        
+        <img class="image" src="images/19.jpg" alt="">
+        
+        <img class="image" src="images/20.jpg" alt="">
+        
+        <img class="image" src="images/21.jpg" alt="">
+        
+        <img class="image" src="images/22.jpg" alt="">
+        
+        <img class="image" src="images/23.jpg" alt="">
+        
+        <img class="image" src="images/24.jpg" alt="">
+    </div>
+
+    <!--Lightbox-->
+    <div class="lightbox">
+        <img src="#">
+        <div id="prevBtn">
+            <i class="fa-solid fa-angle-left"></i>
+        </div>
+        <div id="nextBtn">
+            <i class="fa-solid fa-angle-right"></i>
+        </div>
+    </div>
+
+
+    <!--CONTACT-->
+    <section class="contact-section" id="post">
+        <h2 class="content text-changing">𝑀𝒶𝒹𝑒 𝓌𝒾𝓉𝒽 ♡ </h2><h2 class="content text-changing"> by Tereza Svrčinová</h2>
+        <ul class="contact-list">
+            <li><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=girlwithsoul@seznam.cz" target="_blank"><i class="fa fa-envelope"></i></a></li>
+            <li><a href="https://github.com/GirlWithSoul" target="_blank"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://www.instagram.com/girlwithsoull/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+    </section>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script defer src="js/letterhover.js"></script>
+    <script defer src="js/langswitch.js"></script>
+    <script defer src="js/lightbox.js"></script>
+</body>
+</html>
