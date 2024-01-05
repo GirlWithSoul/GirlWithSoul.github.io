@@ -14,7 +14,7 @@ const texts = document.querySelectorAll(".text-changing");
         letter.style.color = "#1DED54";
 
         setTimeout(() => {
-            letter.style.color = "#B4F9C6";
+            letter.style.color = "#ECFDF1";
         }, 350);
     });
 });
