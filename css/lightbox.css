@@ -23,11 +23,11 @@
     transition: all 500ms;
     cursor: pointer;
     left: 5%;
-    color: #ffdead;
+    color: #ECFDF1;
 }
 
 #prevBtn:hover {
-    color: #ff0000;
+    color: #1DED54;
 }
 
 #nextBtn {
@@ -40,11 +40,11 @@
     transition: all 500ms;
     cursor: pointer;
     right: 5%;
-    color: #ffdead;
+    color: #ECFDF1;
 }
 
 #nextBtn:hover {
-    color: #ff0000;
+    color: #1DED54;
 }
 
 .lightbox img {
