@@ -1,6 +1,6 @@
 (function () {
     emailjs.init({
-        publicKey: "NekABFIA732YwgP0H",
+        publicKey: "l2Z6Y5l_aMTvTr9c7",
     });
 })();
 
@@ -8,7 +8,7 @@ window.onload = function () {
     document.getElementById('contact-form').addEventListener('submit', function (event) {
         event.preventDefault();
         // these IDs from the previous steps
-        emailjs.sendForm('service_fswnqun', 'template_8eaapz8', "#contact-form")
+        emailjs.sendForm('service_vkfncp9', 'template_kuyhco4', "#contact-form")
             .then(() => {
                 console.log('SUCCESS!');
                 document.querySelector('.sent-message').style.display = 'block';

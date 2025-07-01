@@ -1,4 +1,4 @@
-/**
+﻿/**
 * Template Name: iPortfolio
 * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
 * Updated: Jun 29 2024 with Bootstrap v5.3.3
@@ -96,7 +96,6 @@
   if (selectTyped) {
     let typed_strings = selectTyped.getAttribute('data-typed-items');
       typed_strings = typed_strings.split(';');
-      typed_strings.push("Kakabus");
     new Typed('.typed', {
       strings: typed_strings,
       loop: true,
